@@ -20,11 +20,11 @@ export const dataProyek: Proyek[] = [
     period: "Feb 2026 – Apr 2026",
     role: "Full-Stack Developer",
     shortDescription: "Platform no-code modular untuk pembuatan situs UMKM secara efisien dan kustomisasi fleksibel.",
-    fullDescription: "Platform pembuatan situs web tanpa kode (no-code sitebuilder) yang dirancang khusus untuk membantu pemilik UMKM membangun landing page dan katalog digital secara mandiri dengan alur kustomisasi visual.",
+    fullDescription: "Merancang arsitektur platform no-code (template engine, manajemen konten, integrasi katalog produk) agar pelaku UMKM dapat membangun website bisnis tanpa keahlian coding.",
     highlights: [
-      "Arsitektur modular menggunakan Laravel + React/TypeScript & Tailwind CSS",
-      "Kustomisasi toko visual real-time dan manajemen komponen fleksibel",
-      "Dioptimasi untuk performa tinggi & beban server efisien"
+      "Merancang arsitektur platform no-code (template engine, manajemen konten, integrasi katalog produk) agar pelaku UMKM dapat membangun website bisnis tanpa keahlian coding",
+      "Backend REST API (Laravel) dan frontend terpisah menggunakan React, TypeScript, dan Tailwind CSS",
+      "Dioptimasi untuk performa tinggi & beban server efisien di Vercel Production"
     ],
     techStack: ["Laravel", "React", "TypeScript", "Tailwind CSS", "REST API", "MySQL"],
     demoUrl: "https://sitebuilder-v2.vercel.app/",
@@ -36,11 +36,11 @@ export const dataProyek: Proyek[] = [
     period: "Mar 2025 – Jul 2025",
     role: "Lead Developer & Analyst",
     shortDescription: "Sistem manajemen stok & pencatatan keuangan real-time yang dipublikasikan sebagai karya ilmiah.",
-    fullDescription: "Aplikasi manajemen operasional bisnis UMKM yang mengintegrasikan pemantauan persediaan barang (inventory) dengan pembukuan arus kas secara real-time untuk akurasi data finansial harian.",
+    fullDescription: "Menganalisis alur bisnis toko secara langsung di lokasi, merancang arsitektur ERD/UML aplikasi untuk sistem inventory dan keuangan real-time, lalu mengimplementasikannya dengan PHP/Laravel menggunakan metode Prototype.",
     highlights: [
-      "Pencatatan transaksi & kalkulasi stok otomatis real-time",
-      "Laporan arus kas terstruktur & dashboard analitik visual",
-      "Dipublikasikan sebagai Karya Ilmiah di Open Library Telkom University"
+      "Menganalisis alur bisnis toko secara langsung di lokasi, merancang arsitektur ERD/UML aplikasi untuk sistem inventory dan keuangan real-time, lalu mengimplementasikannya dengan PHP/Laravel menggunakan metode Prototype",
+      "Project ini dikembangkan lebih lanjut menjadi tugas akhir dan dipublikasikan sebagai karya ilmiah di Open Library Telkom University, mencakup justifikasi teknis atas pemilihan arsitektur dan pertimbangan skalabilitas sistem",
+      "Laporan arus kas terstruktur & dashboard analitik visual"
     ],
     techStack: ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap", "System Modeling"],
     publicationUrl: "https://openlibrary.telkomuniversity.ac.id/",
@@ -50,15 +50,15 @@ export const dataProyek: Proyek[] = [
     id: "hotel-horison-menteng",
     title: "Modul Manajemen Hotel Horison Menteng",
     period: "Mar 2024 – Sep 2024",
-    role: "IT Developer Magang",
+    role: "IT Developer (Magang)",
     shortDescription: "Modul sistem informasi manajemen operasional Hotel Horison Menteng.",
-    fullDescription: "Pengembangan modul sistem internal manajemen operasional Hotel Horison Menteng untuk optimasi alur kerja staf, reservasi, dan pelaporan operasional harian.",
+    fullDescription: "Merancang dan mengimplementasikan modul manajemen hotel menggunakan PHP dan Laravel pada back-end sebagai bagian proyek profesional bersama Metropolitan Golden Management.",
     highlights: [
-      "Pengembangan fitur manajemen kamar, reservasi, dan log operasional",
-      "Integrasi struktur database relational dengan skalabilitas manajemen hotel",
-      "Kolaborasi tim IT internal Metropolitan Golden Management"
+      "Merancang dan mengimplementasikan modul manajemen hotel menggunakan PHP dan Laravel pada back-end sebagai bagian proyek profesional bersama Metropolitan Golden Management",
+      "Menganalisis kebutuhan operasional hotel bersama tim manajemen & IT, membangun 17 modul CRUD, serta mengelola migrasi data lintas database untuk 20 tabel",
+      "Pengujian fungsional modul secara sistematis sebelum diluncurkan & pengelolaan version control dengan GitHub"
     ],
-    techStack: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS"],
+    techStack: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS", "GitHub"],
     featured: true
   }
 ];

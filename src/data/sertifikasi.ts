@@ -3,44 +3,51 @@ export interface Sertifikasi {
   title: string;
   issuer: string;
   issueDate: string;
-  category: "Sertifikasi Profesi" | "Publikasi Ilmiah" | "Kemampuan Bahasa" | "Cloud";
-  credentialId?: string;
-  link?: string;
+  category: "Pendidikan" | "Sertifikasi Profesi" | "Publikasi Ilmiah" | "Bahasa / Cloud";
   description: string;
+  link?: string;
 }
 
 export const dataSertifikasi: Sertifikasi[] = [
   {
+    id: "pendidikan-s1",
+    title: "S1 Sistem Informasi (Telkom University)",
+    issuer: "Telkom University",
+    issueDate: "Sep 2021 – Aug 2025",
+    category: "Pendidikan",
+    description: "Lulusan S1 Sistem Informasi Telkom University dengan IPK 3.15 dari 4.00. Berfokus pada rekayasa lunak, desain arsitektur ERD/UML, basis data relasional (3NF), dan metodologi SDLC."
+  },
+  {
     id: "bnsp-system-analyst",
-    title: "Sertifikasi Profesi System Analyst",
-    issuer: "BNSP (Badan Nasional Sertifikasi Profesi)",
+    title: "BNSP System Analyst Certification",
+    issuer: "Badan Nasional Sertifikasi Profesi (BNSP)",
     issueDate: "Nov 2024",
     category: "Sertifikasi Profesi",
-    description: "Sertifikasi kompetensi nasional untuk spesialisasi analisis sistem informasi, perancangan arsitektur lunak, dan dokumentasi bisnis."
+    description: "Sertifikasi kompetensi nasional dalam analisis kebutuhan pengguna, perancangan diagram UML/ERD, dan spesifikasi arsitektur sistem informasi."
   },
   {
     id: "publikasi-ubi-bakar",
-    title: "Publikasi Karya Ilmiah — Sistem Inventory & Keuangan Ubi Bakar Cilembu",
+    title: "Rancang Bangun Sistem Informasi Manajemen Inventory dan Keuangan Berbasis Web Menggunakan Metode Prototype (Studi Kasus Toko Ubi Bakar Cilembu)",
     issuer: "Open Library Telkom University",
     issueDate: "Jul 2025",
     category: "Publikasi Ilmiah",
-    link: "https://openlibrary.telkomuniversity.ac.id/",
-    description: "Karya ilmiah mengenai rancang bangun dan implementasi sistem informasi manajemen stok dan arus kas real-time pada usaha mikro."
+    description: "Publikasi karya ilmiah tugas akhir mengenai perancangan & analisis skalabilitas sistem manajemen persediaan barang dan keuangan real-time berbasis web.",
+    link: "https://openlibrary.telkomuniversity.ac.id/"
   },
   {
-    id: "eprt-telkom",
+    id: "eprt-english",
     title: "EPRT (English Proficiency Test)",
     issuer: "Telkom University Language Center",
     issueDate: "Jun 2025",
-    category: "Kemampuan Bahasa",
-    description: "Sertifikat kemahiran bahasa Inggris profesional untuk lingkungan akademis dan kerja."
+    category: "Bahasa / Cloud",
+    description: "Uji kemahiran Bahasa Inggris terstandarisasi Telkom University."
   },
   {
     id: "alibaba-cloud",
     title: "Alibaba Cloud Certification",
-    issuer: "Alibaba Cloud",
+    issuer: "Alibaba Cloud Academy",
     issueDate: "Jan 2024",
-    category: "Cloud",
-    description: "Sertifikasi dasar komputasi awan dan arsitektur infrastruktur cloud Alibaba."
+    category: "Bahasa / Cloud",
+    description: "Sertifikasi kompetensi dasar arsitektur cloud & infrastruktur komputasi awan."
   }
 ];

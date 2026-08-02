@@ -38,12 +38,12 @@ export default function Hero() {
               </p>
 
               <div className="text-xs font-mono font-medium text-[#66625D]">
-                Fresh Graduate Sistem Informasi • Telkom University
+                Fresh Graduate S1 Sistem Informasi • Telkom University (IPK 3.15)
               </div>
             </div>
 
             <p className="text-[#66625D] text-sm sm:text-base lg:text-lg leading-relaxed pt-1">
-              Menggabungkan ketelitian pemodelan arsitektur sistem (ERD/UML 3NF) dengan eksekusi kode full-stack modern. Berpengalaman membangun 5+ aplikasi web skala produk UMKM dan sistem manajemen Hotel Horison Menteng.
+              Fresh graduate Sistem Informasi Telkom University, dengan pengalaman membangun lebih dari 5 aplikasi web production menggunakan PHP/Laravel/React, mencakup sistem POS, payment gateway, dan manajemen inventory real-time untuk klien UMKM dan Hotel Horison Menteng.
             </p>
 
             {/* Action CTAs */}
@@ -147,7 +147,7 @@ export default function Hero() {
               Web Production
             </div>
             <p className="text-xs text-[#66625D] leading-relaxed">
-              Modul operasional Hotel Horison Menteng & platform sitebuilder UMKM.
+              Sistem POS, payment gateway & inventory real-time klien UMKM & Hotel.
             </p>
           </div>
 
@@ -162,7 +162,7 @@ export default function Hero() {
               System Analyst Certified
             </div>
             <p className="text-xs text-[#66625D] leading-relaxed">
-              Sertifikasi kompetensi analisis kebutuhan lunak & UML/ERD.
+              Analisis kebutuhan, perancangan ERD/UML 3NF & metodologi SDLC.
             </p>
           </div>
 
@@ -171,13 +171,13 @@ export default function Hero() {
               <Users className="w-4 h-4" />
             </div>
             <div className="font-display font-extrabold text-xl sm:text-2xl text-[#121212]">
-              2 Tahun
+              5 Matkul
             </div>
             <div className="text-xs font-semibold text-[#B94A24]">
-              Asisten Praktikum
+              Asisten Praktikum Telkom
             </div>
             <p className="text-xs text-[#66625D] leading-relaxed">
-              Membimbing praktikum basis data & web Telkom University.
+              150+ Mahasiswa / semester (4 semester berturut-turut).
             </p>
           </div>
         </div>

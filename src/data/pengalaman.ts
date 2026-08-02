@@ -14,31 +14,32 @@ export const dataPengalaman: Pengalaman[] = [
   {
     id: "asistan-praktikum",
     role: "Asisten Praktikum",
-    company: "Telkom University",
-    location: "Bandung / Tangerang",
+    company: "Telkom University Kampus Jakarta",
+    location: "Jakarta",
     period: "Sep 2023 – Sep 2025",
     type: "Akademik / Asisten",
-    description: "Membimbing ratusan mahasiswa dalam pemahaman mata kuliah basis data, pemrograman web, dan analisis sistem informasi.",
+    description: "Membimbing dan mengajar 30–40 mahasiswa per kelas untuk 5 mata kuliah selama 4 semester berturut-turut dengan total lebih dari 150 mahasiswa per semester.",
     responsibilities: [
-      "Menyusun modul praktikum & bahan ajar teknis pemrograman dan database",
-      "Membimbing sesi praktikum hands-on pemrograman web & pemodelan UML/ERD",
-      "Evaluasi & koreksi tugas/projek akhir mahasiswa secara terstruktur"
+      "Membimbing dan mengajar 30–40 mahasiswa per kelas di 5 mata kuliah: Basis Data, Manajemen Rantai Pasok, Keamanan Sistem Informasi, SAP (Sistem Informasi Akuntansi), dan Data Warehouse (3 sesi praktikum/semester per matkul)",
+      "Menyusun modul praktikum dan mengevaluasi hasil kerja mahasiswa secara konsisten selama 4 semester berturut-turut",
+      "Mengembangkan kemampuan leadership dan problem-solving melalui sesi mentoring rutin dengan total lebih dari 150 mahasiswa per semester"
     ],
-    skillsUsed: ["PHP", "Laravel", "MySQL", "UML", "ERD", "Mentoring", "Code Review"]
+    skillsUsed: ["Basis Data", "Manajemen Rantai Pasok", "Keamanan Sistem Informasi", "SAP", "Data Warehouse", "PHP", "MySQL", "UML", "ERD"]
   },
   {
     id: "it-developer-intern",
-    role: "IT Developer Magang",
+    role: "IT DEVELOPER (magang)",
     company: "Metropolitan Golden Management",
-    location: "Jakarta / Tangerang",
+    location: "Jakarta",
     period: "Mar 2024 – Sep 2024",
     type: "Kerja / Magang",
-    description: "Mengembangkan modul aplikasi web internal pendukung sistem operasional manajemen Hotel Horison Menteng.",
+    description: "Menganalisis kebutuhan operasional Hotel Horison Menteng bersama tim IT & manajemen, lalu merancang dan mengimplementasikan sistem yang dibutuhkan menjadi 17 modul CRUD.",
     responsibilities: [
-      "Membangun fitur modul operasional & manajemen data hotel menggunakan PHP/Laravel",
-      "Analisis kebutuhan pengguna internal dan penerjemahan menjadi rancangan sistem",
-      "Debugging, optimasi query MySQL, dan perbaikan alur antarmuka aplikasi"
+      "Menganalisis kebutuhan operasional hotel bersama tim manajemen hotel dan IT, lalu merancang dan mengimplementasikan sistem yang dibutuhkan menjadi 17 modul CRUD menggunakan PHP dan Laravel",
+      "Mengelola version control dengan GitHub selama proses pengembangan untuk menjaga histori perubahan kode tetap terlacak dan mudah di-review",
+      "Melakukan pengujian fungsional modul secara sistematis sebelum website diluncurkan, memastikan tidak ada bug",
+      "Melakukan migrasi data lintas database untuk 20 tabel sebagai bagian dari proses konsolidasi sistem, memastikan integritas data tetap terjaga selama proses perpindahan"
     ],
-    skillsUsed: ["PHP", "Laravel", "JavaScript", "MySQL", "SDLC", "Business Analysis"]
+    skillsUsed: ["PHP", "Laravel", "MySQL", "GitHub", "Migrasi 20 Tabel", "17 Modul CRUD", "Functional Testing", "Business Analysis"]
   }
 ];
