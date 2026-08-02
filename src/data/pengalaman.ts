@@ -33,7 +33,7 @@ export const dataPengalaman: Pengalaman[] = [
     location: "Jakarta / Tangerang",
     period: "Mar 2024 – Sep 2024",
     type: "Kerja / Magang",
-    description: "Mengembangkan modul aplikasi web internal pendukung sistem operasional hospitality jaringan Hotel Horison Ultima.",
+    description: "Mengembangkan modul aplikasi web internal pendukung sistem operasional manajemen Hotel Horison Menteng.",
     responsibilities: [
       "Membangun fitur modul operasional & manajemen data hotel menggunakan PHP/Laravel",
       "Analisis kebutuhan pengguna internal dan penerjemahan menjadi rancangan sistem",

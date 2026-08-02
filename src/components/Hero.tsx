@@ -43,7 +43,7 @@ export default function Hero() {
             </div>
 
             <p className="text-[#66625D] text-sm sm:text-base lg:text-lg leading-relaxed pt-1">
-              Menggabungkan ketelitian pemodelan arsitektur sistem (ERD/UML 3NF) dengan eksekusi kode full-stack modern. Berpengalaman membangun 5+ aplikasi web skala industri hospitality dan platform UMKM.
+              Menggabungkan ketelitian pemodelan arsitektur sistem (ERD/UML 3NF) dengan eksekusi kode full-stack modern. Berpengalaman membangun 5+ aplikasi web skala produk UMKM dan sistem manajemen Hotel Horison Menteng.
             </p>
 
             {/* Action CTAs */}
@@ -147,7 +147,7 @@ export default function Hero() {
               Web Production
             </div>
             <p className="text-xs text-[#66625D] leading-relaxed">
-              Modul operasional hotel (MGM) & platform sitebuilder UMKM.
+              Modul operasional Hotel Horison Menteng & platform sitebuilder UMKM.
             </p>
           </div>
 

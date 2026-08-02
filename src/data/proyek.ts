@@ -47,15 +47,15 @@ export const dataProyek: Proyek[] = [
     featured: true
   },
   {
-    id: "hotel-horison-ultima",
-    title: "Modul Manajemen Hotel Horison Ultima",
+    id: "hotel-horison-menteng",
+    title: "Modul Manajemen Hotel Horison Menteng",
     period: "Mar 2024 – Sep 2024",
     role: "IT Developer Magang",
-    shortDescription: "Modul sistem informasi manajemen operasional hotel di Metropolitan Golden Management.",
-    fullDescription: "Pengembangan modul sistem internal manajemen operasional hotel Horison Ultima untuk optimasi alur kerja staf, reservasi, dan pelaporan operasional harian.",
+    shortDescription: "Modul sistem informasi manajemen operasional Hotel Horison Menteng.",
+    fullDescription: "Pengembangan modul sistem internal manajemen operasional Hotel Horison Menteng untuk optimasi alur kerja staf, reservasi, dan pelaporan operasional harian.",
     highlights: [
       "Pengembangan fitur manajemen kamar, reservasi, dan log operasional",
-      "Integrasi struktur database relational dengan skalabilitas bisnis hotel",
+      "Integrasi struktur database relational dengan skalabilitas manajemen hotel",
       "Kolaborasi tim IT internal Metropolitan Golden Management"
     ],
     techStack: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS"],

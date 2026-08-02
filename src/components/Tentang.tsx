@@ -13,7 +13,7 @@ export default function Tentang() {
     },
     {
       title: "5+ Aplikasi Web Production",
-      description: "Pengalaman membangun modul manajemen operasional hotel (Metropolitan Golden Management) dan platform sitebuilder modular UMKM."
+      description: "Pengalaman membangun modul manajemen operasional Hotel Horison Menteng (Metropolitan Golden Management) dan platform sitebuilder modular UMKM."
     },
     {
       title: "2 Tahun Asisten Praktikum Basis Data & Web",
@@ -41,7 +41,7 @@ export default function Tentang() {
             Saya adalah lulusan Sistem Informasi Telkom University yang memadukan kedalaman analisis sistem dengan eksekusi teknis full-stack. Sebelum mengeksekusi baris kode, saya terbiasa memetakan proses bisnis, merancang ERD yang ter-normalisasi, serta menyusun dokumentasi UML.
           </p>
           <p>
-            Dalam eksekusi teknis, stack utama yang saya kuasai meliputi <strong className="text-[#121212]">PHP, Laravel, React, TypeScript, dan MySQL</strong>. Pengalaman magang di industri hospitality serta peran 2 tahun sebagai Asisten Praktikum membentuk disiplin kerja yang tinggi, ketelitian logika, dan komunikasi teknis yang jernih.
+            Dalam eksekusi teknis, stack utama yang saya kuasai meliputi <strong className="text-[#121212]">PHP, Laravel, React, TypeScript, dan MySQL</strong>. Pengalaman magang pengembangan sistem manajemen Hotel Horison Menteng serta peran 2 tahun sebagai Asisten Praktikum membentuk disiplin kerja yang tinggi, ketelitian logika, dan komunikasi teknis yang jernih.
           </p>
         </div>
 

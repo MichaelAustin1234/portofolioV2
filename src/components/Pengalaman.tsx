@@ -15,7 +15,7 @@ export default function Pengalaman() {
             Pengalaman Kerja & Asisten
           </h2>
           <p className="text-base text-[#66625D] mt-2">
-            Jejak ritme kerja profesional di industri hospitality dan peran akademis membimbing mahasiswa.
+            Jejak pengalaman kerja profesional di manajemen hotel dan peran akademis membimbing mahasiswa.
           </p>
         </div>
 
