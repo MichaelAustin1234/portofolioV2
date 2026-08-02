@@ -4,7 +4,6 @@ export interface ProfileData {
   tagline: string;
   bioSummary: string;
   city: string;
-  gpa: string;
   whatsapp: {
     number: string;
     formattedNumber: string;
@@ -40,10 +39,9 @@ const mailBody = encodeURIComponent("Halo Michael Austin,\n\nSaya menemukan port
 export const profileData: ProfileData = {
   name: "Michael Austin",
   role: "System Analyst • Web Developer • Software Engineer • IT Support • QA",
-  tagline: "Fresh Graduate Sistem Informasi Telkom University (IPK 3.15), berpengalaman membangun 5+ aplikasi web production dan tersertifikasi BNSP System Analyst.",
-  bioSummary: "Fresh graduate Sistem Informasi Telkom University (IPK 3.15), dengan pengalaman membangun lebih dari 5 aplikasi web production menggunakan PHP/Laravel/React, mencakup sistem POS, payment gateway, dan manajemen inventory real-time untuk klien UMKM dan Hotel Horison Menteng. Dibekali kemampuan analisis kebutuhan dan perancangan sistem ERD/UML (tersertifikasi BNSP System Analyst) yang memperkuat proses SDLC, desain arsitektur, implementasi, hingga deployment. Aktif sebagai Asisten Praktikum untuk 5 mata kuliah dengan total lebih dari 150 mahasiswa per semester.",
+  tagline: "Fresh Graduate Sistem Informasi Telkom University, berpengalaman membangun 5+ aplikasi web production dan tersertifikasi BNSP System Analyst.",
+  bioSummary: "Fresh graduate Sistem Informasi Telkom University, dengan pengalaman membangun lebih dari 5 aplikasi web production menggunakan PHP/Laravel/React, mencakup sistem POS, payment gateway, dan manajemen inventory real-time untuk klien UMKM dan Hotel Horison Menteng. Dibekali kemampuan analisis kebutuhan dan perancangan sistem ERD/UML (tersertifikasi BNSP System Analyst) yang memperkuat proses SDLC, desain arsitektur, implementasi, hingga deployment. Aktif sebagai Asisten Praktikum untuk 5 mata kuliah dengan total lebih dari 150 mahasiswa per semester.",
   city: "Tangerang",
-  gpa: "3.15 / 4.00",
   whatsapp: {
     number: "081515526082",
     formattedNumber: "+62 815-1552-6082",

@@ -34,7 +34,7 @@ export default function Hero() {
               </p>
 
               <div className="text-xs font-mono font-medium text-[#66625D]">
-                Fresh Graduate S1 Sistem Informasi • Telkom University (IPK 3.15)
+                Fresh Graduate S1 Sistem Informasi • Telkom University
               </div>
             </div>
 
