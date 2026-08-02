@@ -25,11 +25,6 @@ export default function Tentang() {
     <section id="tentang" className="py-20 bg-white border-b border-[#E8E5E0]">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 space-y-8">
         
-        {/* Eyebrow Label */}
-        <div className="text-xs font-eyebrow font-medium text-[#B94A24] tracking-wider uppercase">
-          // Tentang Saya
-        </div>
-
         {/* Title */}
         <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-[#121212] tracking-tight leading-tight">
           Rekayasa Perangkat Lunak Berbasis Analisis Sistem Terstruktur

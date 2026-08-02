@@ -8,12 +8,8 @@ export default function Hero() {
     <section id="profil" className="pt-28 sm:pt-32 pb-16 sm:pb-20 bg-[#FAF8F5] border-b border-[#E8E5E0]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-10 sm:space-y-12">
         
-        {/* Top Eyebrow Bar */}
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs">
-          <div className="font-eyebrow font-medium text-[#B94A24] tracking-wider uppercase">
-            // PORTOFOLIO PROFESIONAL
-          </div>
-
+        {/* Top Status Bar (Eyebrow Caption Removed) */}
+        <div className="flex justify-end">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-[11px] sm:text-xs font-mono font-medium shadow-2xs">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0" />
             <span>Terbuka untuk Peluang Kerja & Magang</span>

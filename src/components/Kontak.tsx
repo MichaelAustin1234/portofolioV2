@@ -68,9 +68,6 @@ export default function Kontak() {
         
         {/* Section Header */}
         <div>
-          <div className="text-xs font-eyebrow font-medium text-[#B94A24] tracking-wider uppercase mb-2">
-            // Hubungi Saya
-          </div>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-[#121212] tracking-tight">
             Mari Berdiskusi
           </h2>

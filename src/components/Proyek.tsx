@@ -29,9 +29,6 @@ export default function Proyek() {
         
         {/* Section Header */}
         <div>
-          <div className="text-xs font-eyebrow font-medium text-[#B94A24] tracking-wider uppercase mb-2">
-            // Portofolio Proyek
-          </div>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-[#121212] tracking-tight">
             Karya Proyek Terpilih
           </h2>

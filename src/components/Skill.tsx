@@ -7,9 +7,6 @@ export default function Skill() {
         
         {/* Section Header */}
         <div>
-          <div className="text-xs font-eyebrow font-medium text-[#B94A24] tracking-wider uppercase mb-2">
-            // Keahlian & Metodologi
-          </div>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-[#121212] tracking-tight">
             Keahlian Teknis & Tools
           </h2>
