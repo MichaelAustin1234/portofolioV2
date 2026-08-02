@@ -38,7 +38,7 @@ const mailBody = encodeURIComponent("Halo Michael Austin,\n\nSaya menemukan port
 
 export const profileData: ProfileData = {
   name: "Michael Austin",
-  role: "PHP / Laravel & React Developer",
+  role: "System Analyst • Web Developer • Software Engineer • IT Support • QA",
   tagline: "Fresh Graduate Sistem Informasi Telkom University berpengalaman membangun 5+ aplikasi web production dan tersertifikasi BNSP System Analyst.",
   bioSummary: "Lulusan Sistem Informasi Telkom University yang berfokus pada pengembangan web full-stack (PHP, Laravel, React, TypeScript) dan analisis sistem (SDLC, UML, ERD). Berpengalaman nyata menangani proyek industri, sistem inventory UMKM, hingga aktif sebagai Asisten Praktikum.",
   city: "Tangerang",

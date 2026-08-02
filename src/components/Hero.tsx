@@ -26,14 +26,17 @@ export default function Hero() {
           {/* Left Column: Headline, Bio & CTAs (Lg: 7 cols) */}
           <div className="lg:col-span-7 space-y-5 sm:space-y-6">
             
-            {/* Headline + Role Subtitle */}
+            {/* Headline + Multi-Role Subtitle */}
             <div className="space-y-2">
               <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-[#121212] tracking-tight leading-[1.06]">
                 Michael Austin
               </h1>
-              <p className="text-[#B94A24] font-display font-bold text-lg sm:text-xl tracking-tight">
-                PHP / Laravel & React Developer • System Analyst
+              
+              {/* Elegant Multi-Role Subtitle Tag */}
+              <p className="text-[#B94A24] font-display font-bold text-base sm:text-lg tracking-tight leading-snug">
+                System Analyst <span className="text-[#66625D]/40 mx-1">•</span> Web Developer <span className="text-[#66625D]/40 mx-1">•</span> Software Engineer <span className="text-[#66625D]/40 mx-1">•</span> IT Support <span className="text-[#66625D]/40 mx-1">•</span> QA
               </p>
+
               <div className="text-xs font-mono font-medium text-[#66625D]">
                 Fresh Graduate Sistem Informasi • Telkom University
               </div>

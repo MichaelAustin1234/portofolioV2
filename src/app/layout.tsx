@@ -29,15 +29,16 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://michaelaustin.me"),
-  title: "Michael Austin — Developer PHP/Laravel & React",
-  description: "Portofolio profesional Michael Austin. Fresh graduate Sistem Informasi Telkom University, PHP/Laravel & React Developer, BNSP System Analyst Certified.",
+  title: "Michael Austin — System Analyst & Software Engineer",
+  description: "Portofolio profesional Michael Austin. Fresh graduate Sistem Informasi Telkom University. System Analyst, Web Developer, Software Engineer, IT Support, QA.",
   authors: [{ name: "Michael Austin", url: "https://michaelaustin.me" }],
   keywords: [
     "Michael Austin",
-    "Developer PHP",
-    "Developer Laravel",
-    "Developer React",
-    "System Analyst BNSP",
+    "System Analyst",
+    "Web Developer",
+    "Software Engineer",
+    "IT Support",
+    "QA",
     "Telkom University",
     "Portfolio Web"
   ],
@@ -46,8 +47,8 @@ export const metadata: Metadata = {
     apple: "/icon.svg",
   },
   openGraph: {
-    title: "Michael Austin — Developer PHP/Laravel & React",
-    description: "Fresh graduate Sistem Informasi Telkom University berpengalaman membangun 5+ aplikasi web production & tersertifikasi BNSP System Analyst.",
+    title: "Michael Austin — System Analyst & Software Engineer",
+    description: "Fresh graduate Sistem Informasi Telkom University. System Analyst, Web Developer, Software Engineer, IT Support, QA.",
     url: "https://michaelaustin.me",
     siteName: "Michael Austin Portfolio",
     images: [
@@ -55,7 +56,7 @@ export const metadata: Metadata = {
         url: "/foto-profil.png",
         width: 800,
         height: 800,
-        alt: "Michael Austin - PHP/Laravel & React Developer"
+        alt: "Michael Austin - System Analyst & Software Engineer"
       }
     ],
     locale: "id_ID",
@@ -63,8 +64,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Michael Austin — Developer PHP/Laravel & React",
-    description: "Fresh graduate Sistem Informasi Telkom University berpengalaman membangun 5+ aplikasi web production & tersertifikasi BNSP System Analyst.",
+    title: "Michael Austin — System Analyst & Software Engineer",
+    description: "Fresh graduate Sistem Informasi Telkom University. System Analyst, Web Developer, Software Engineer, IT Support, QA.",
     images: ["/foto-profil.png"],
   },
   robots: {
