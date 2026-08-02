@@ -20,22 +20,18 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-center">
           
           {/* Left Column: Headline, Bio & CTAs (Lg: 7 cols) */}
-          <div className="lg:col-span-7 space-y-5 sm:space-y-6">
+          <div className="lg:col-span-7 space-y-6 sm:space-y-7">
             
-            {/* Headline + Multi-Role Subtitle */}
-            <div className="space-y-2">
+            {/* Headline + Multi-Role Subtitle (Clean & Spacious Pairing) */}
+            <div className="space-y-3">
               <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-[#121212] tracking-tight leading-[1.06]">
                 Michael Austin
               </h1>
               
               {/* Elegant Multi-Role Subtitle Tag */}
-              <p className="text-[#B94A24] font-display font-bold text-base sm:text-lg tracking-tight leading-snug">
+              <p className="text-[#B94A24] font-display font-bold text-base sm:text-lg lg:text-xl tracking-tight leading-snug">
                 System Analyst <span className="text-[#66625D]/40 mx-1">•</span> Web Developer <span className="text-[#66625D]/40 mx-1">•</span> Software Engineer <span className="text-[#66625D]/40 mx-1">•</span> IT Support <span className="text-[#66625D]/40 mx-1">•</span> QA
               </p>
-
-              <div className="text-xs font-mono font-medium text-[#66625D]">
-                Fresh Graduate S1 Sistem Informasi • Telkom University
-              </div>
             </div>
 
             <p className="text-[#66625D] text-sm sm:text-base lg:text-lg leading-relaxed pt-1">
@@ -43,7 +39,7 @@ export default function Hero() {
             </p>
 
             {/* Action CTAs */}
-            <div className="pt-1 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
+            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
               <a
                 href="#proyek"
                 className="inline-flex items-center justify-center gap-2 bg-[#121212] text-white hover:bg-[#B94A24] active:bg-[#9A3B1B] px-6 py-3.5 text-sm font-medium transition-colors shadow-xs hover:shadow-md rounded-lg text-center min-h-[44px]"
@@ -62,7 +58,7 @@ export default function Hero() {
             </div>
 
             {/* Direct Contact Links */}
-            <div className="pt-4 border-t border-[#E8E5E0] flex flex-wrap items-center gap-4 sm:gap-5 text-xs sm:text-sm text-[#66625D]">
+            <div className="pt-5 border-t border-[#E8E5E0] flex flex-wrap items-center gap-4 sm:gap-5 text-xs sm:text-sm text-[#66625D]">
               <a
                 href={profileData.whatsapp.link}
                 target="_blank"
