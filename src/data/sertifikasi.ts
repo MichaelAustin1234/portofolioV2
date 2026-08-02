@@ -3,20 +3,12 @@ export interface Sertifikasi {
   title: string;
   issuer: string;
   issueDate: string;
-  category: "Pendidikan" | "Sertifikasi Profesi" | "Publikasi Ilmiah" | "Bahasa / Cloud";
+  category: "Sertifikasi Profesi" | "Publikasi Ilmiah" | "Bahasa / Cloud";
   description: string;
   link?: string;
 }
 
 export const dataSertifikasi: Sertifikasi[] = [
-  {
-    id: "pendidikan-s1",
-    title: "S1 Sistem Informasi (Telkom University)",
-    issuer: "Telkom University",
-    issueDate: "Sep 2021 – Aug 2025",
-    category: "Pendidikan",
-    description: "Lulusan S1 Sistem Informasi Telkom University dengan IPK 3.15 dari 4.00. Berfokus pada rekayasa lunak, desain arsitektur ERD/UML, basis data relasional (3NF), dan metodologi SDLC."
-  },
   {
     id: "bnsp-system-analyst",
     title: "BNSP System Analyst Certification",
