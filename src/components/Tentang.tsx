@@ -1,5 +1,4 @@
-import { Download, CheckCircle2 } from "lucide-react";
-import { profileData } from "@/data/profile";
+import { CheckCircle2 } from "lucide-react";
 
 export default function Tentang() {
   const competencies = [
@@ -66,20 +65,6 @@ export default function Tentang() {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Download Action */}
-        <div className="pt-2">
-          <a
-            href={profileData.cvPath}
-            target="_blank"
-            rel="noopener noreferrer"
-            download="CV-Michael-Austin.pdf"
-            className="inline-flex items-center gap-2 border border-[#121212] bg-[#121212] text-white hover:bg-[#B94A24] px-6 py-3.5 text-sm font-medium transition-colors rounded-lg shadow-xs"
-          >
-            <Download className="w-4 h-4 text-[#B94A24]" />
-            <span>Download CV Lengkap (PDF)</span>
-          </a>
         </div>
 
       </div>
