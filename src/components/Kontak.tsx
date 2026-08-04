@@ -79,12 +79,6 @@ export default function Kontak() {
           {/* Left Column: Personal Context & Direct Links (5 Cols) */}
           <div className="lg:col-span-5 space-y-6">
             
-            {/* Status Pill */}
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#FAF8F5] border border-[#E8E5E0] rounded-full text-xs font-medium text-[#121212]">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Terbuka untuk Peluang Kerja & Proyek</span>
-            </div>
-
             {/* Header */}
             <div className="space-y-3">
               <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-[#121212] tracking-tight leading-tight">
