@@ -15,7 +15,7 @@ export default function Kontak() {
   };
 
   return (
-    <section id="kontak" className="py-20 bg-white border-b border-[#E8E5E0] relative">
+    <section id="kontak" className="scroll-mt-20 py-20 bg-white border-b border-[#E8E5E0] relative">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 space-y-10">
         
         {/* Toast Notification Banner */}
