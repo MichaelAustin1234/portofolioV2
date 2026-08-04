@@ -20,11 +20,11 @@ export const dataProyek: Proyek[] = [
     period: "Feb 2026 – Apr 2026",
     role: "Full-Stack Developer",
     shortDescription: "Platform no-code modular untuk pembuatan situs UMKM secara efisien dan kustomisasi fleksibel.",
-    fullDescription: "Merancang arsitektur platform no-code (template engine, manajemen konten, integrasi katalog produk) agar pelaku UMKM dapat membangun website bisnis tanpa keahlian coding.",
+    fullDescription: "Platform pembuat situs web modular berbasis no-code yang dirancang untuk membantu pelaku UMKM membangun dan mengelola katalog produk serta profil bisnis digital secara mandiri.",
     highlights: [
-      "Merancang arsitektur platform no-code (template engine, manajemen konten, integrasi katalog produk) agar pelaku UMKM dapat membangun website bisnis tanpa keahlian coding",
-      "Backend REST API (Laravel) dan frontend terpisah menggunakan React, TypeScript, dan Tailwind CSS",
-      "Dioptimasi untuk performa tinggi & beban server efisien di Vercel Production"
+      "Arsitektur terpisah (decoupled): Backend REST API Laravel + Frontend SPA React & TypeScript",
+      "Engine kustomisasi template modular dengan visual preview instan & integrasi katalog produk",
+      "Dioptimasi untuk performa tinggi, waktu muat cepat, & pemrosesan efisien di Vercel Production"
     ],
     techStack: ["Laravel", "React", "TypeScript", "Tailwind CSS", "REST API", "MySQL"],
     demoUrl: "https://sitebuilder-v2.vercel.app/",
@@ -36,11 +36,11 @@ export const dataProyek: Proyek[] = [
     period: "Mar 2025 – Jul 2025",
     role: "Lead Developer & Analyst",
     shortDescription: "Sistem manajemen stok & pencatatan keuangan real-time yang dipublikasikan sebagai karya ilmiah.",
-    fullDescription: "Menganalisis alur bisnis toko secara langsung di lokasi, merancang arsitektur ERD/UML aplikasi untuk sistem inventory dan keuangan real-time, lalu mengimplementasikannya dengan PHP/Laravel menggunakan metode Prototype.",
+    fullDescription: "Sistem informasi bisnis terintegrasi untuk pengelolaan stok persediaan barang dan pencatatan keuangan toko secara real-time yang dikembangkan menggunakan metode Prototype.",
     highlights: [
-      "Menganalisis alur bisnis toko secara langsung di lokasi, merancang arsitektur ERD/UML aplikasi untuk sistem inventory dan keuangan real-time, lalu mengimplementasikannya dengan PHP/Laravel menggunakan metode Prototype",
-      "Project ini dikembangkan lebih lanjut menjadi tugas akhir dan dipublikasikan sebagai karya ilmiah di Open Library Telkom University, mencakup justifikasi teknis atas pemilihan arsitektur dan pertimbangan skalabilitas sistem",
-      "Laporan arus kas terstruktur & dashboard analitik visual"
+      "Analisis alur bisnis langsung di lokasi & perancangan arsitektur data ter-normalisasi (UML & ERD 3NF)",
+      "Pengembangan modul inventory persediaan barang, transaksi kasir, dan laporan keuangan terstruktur",
+      "Dipublikasikan sebagai karya ilmiah tugas akhir di Open Library Telkom University dengan pengujian skalabilitas"
     ],
     techStack: ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap", "System Modeling"],
     publicationUrl: "https://openlibrary.telkomuniversity.ac.id/",
@@ -52,11 +52,11 @@ export const dataProyek: Proyek[] = [
     period: "Mar 2024 – Sep 2024",
     role: "IT Developer (Magang)",
     shortDescription: "Modul sistem informasi manajemen operasional Hotel Horison Menteng.",
-    fullDescription: "Merancang dan mengimplementasikan modul manajemen hotel menggunakan PHP dan Laravel pada back-end sebagai bagian proyek profesional bersama Metropolitan Golden Management.",
+    fullDescription: "Modul web manajemen operasional hotel yang dikembangkan selama program magang profesional bersama Metropolitan Golden Management untuk mendukung efisiensi layanan internal.",
     highlights: [
-      "Merancang dan mengimplementasikan modul manajemen hotel menggunakan PHP dan Laravel pada back-end sebagai bagian proyek profesional bersama Metropolitan Golden Management",
-      "Menganalisis kebutuhan operasional hotel bersama tim manajemen & IT, membangun 17 modul CRUD, serta mengelola migrasi data lintas database untuk 20 tabel",
-      "Pengujian fungsional modul secara sistematis sebelum diluncurkan & pengelolaan version control dengan GitHub"
+      "Analisis kebutuhan bisnis operasional hotel bersama tim manajemen & IT perusahaan",
+      "Pengembangan 17 modul CRUD internal serta pengelolaan migrasi data lintas database relasional untuk 20 tabel",
+      "Pengujian fungsional modul secara sistematis sebelum diluncurkan ke lingkungan produksi"
     ],
     techStack: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS", "GitHub"],
     featured: true
