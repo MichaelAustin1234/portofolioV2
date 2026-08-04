@@ -142,11 +142,11 @@ export default function Hero() {
             <div className="w-8 h-8 rounded bg-[#FDF6F0] text-[#B94A24] flex items-center justify-center mb-2">
               <Award className="w-4 h-4" />
             </div>
-            <div className="font-display font-extrabold text-xl sm:text-2xl text-[#121212]">
-              BNSP Analyst
+            <div className="font-display font-extrabold text-lg sm:text-xl text-[#121212]">
+              System Analyst Certified
             </div>
             <div className="text-xs font-semibold text-[#B94A24]">
-              System Analyst Certified
+              Badan Nasional Sertifikasi Profesi
             </div>
             <p className="text-xs text-[#66625D] leading-relaxed">
               Analisis kebutuhan, perancangan ERD/UML 3NF & metodologi SDLC.
