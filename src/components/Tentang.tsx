@@ -15,8 +15,8 @@ export default function Tentang() {
       description: "Pengalaman membangun modul manajemen operasional Hotel Horison Menteng (Metropolitan Golden Management) dan platform sitebuilder modular UMKM."
     },
     {
-      title: "2 Tahun Asisten Praktikum Basis Data & Web",
-      description: "Aktif mengajar praktikum basis data dan pemrograman web di Telkom University (Sep 2023 – Sep 2025)."
+      title: "2 Tahun Asisten Praktikum",
+      description: "Aktif mengajar praktikum untuk 5 mata kuliah di Telkom University (Sep 2023 – Sep 2025)."
     }
   ];
 
@@ -39,25 +39,25 @@ export default function Tentang() {
           </p>
         </div>
 
-        {/* Competencies List (Single-Column Linear Flow) */}
-        <div className="pt-6 border-t border-[#E8E5E0] space-y-6">
+        {/* Competencies List (Compact 2x2 Grid) */}
+        <div className="pt-6 border-t border-[#E8E5E0] space-y-5">
           <h3 className="font-display font-bold text-xl text-[#121212]">
             Kualifikasi Utama:
           </h3>
 
-          <div className="space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch">
             {competencies.map((item, idx) => (
               <div
                 key={idx}
-                className="p-5 bg-[#FAF8F5] border border-[#E8E5E0] rounded-xl space-y-1.5"
+                className="p-5 bg-[#FAF8F5] border border-[#E8E5E0] hover:border-[#121212]/30 rounded-2xl flex flex-col justify-between transition-all shadow-2xs group h-full"
               >
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-[#B94A24] shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="font-display font-bold text-base text-[#121212]">
+                    <h4 className="font-display font-bold text-base text-[#121212] group-hover:text-[#B94A24] transition-colors">
                       {item.title}
                     </h4>
-                    <p className="text-sm text-[#66625D] leading-relaxed mt-1">
+                    <p className="text-xs sm:text-sm text-[#66625D] leading-relaxed mt-1.5">
                       {item.description}
                     </p>
                   </div>
