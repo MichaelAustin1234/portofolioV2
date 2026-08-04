@@ -14,7 +14,7 @@ export default function Sertifikasi() {
   };
 
   return (
-    <section id="sertifikasi" className="scroll-mt-20 py-20 bg-[#FAF8F5] border-b border-[#E8E5E0]">
+    <section id="sertifikasi" className="scroll-mt-16 py-20 bg-[#FAF8F5] border-b border-[#E8E5E0]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-10">
         
         {/* Section Header */}

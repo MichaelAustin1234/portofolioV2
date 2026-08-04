@@ -3,7 +3,7 @@ import { dataPengalaman } from "@/data/pengalaman";
 
 export default function Pengalaman() {
   return (
-    <section id="pengalaman" className="scroll-mt-20 py-16 sm:py-20 bg-white border-b border-[#E8E5E0]">
+    <section id="pengalaman" className="scroll-mt-16 py-16 sm:py-20 bg-white border-b border-[#E8E5E0]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-8 sm:space-y-10">
         
         {/* Section Header */}
