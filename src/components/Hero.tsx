@@ -4,11 +4,11 @@ import { profileData } from "@/data/profile";
 
 export default function Hero() {
   return (
-    <section id="profil" className="pt-30 sm:pt-34 pb-20 sm:pb-24 bg-[#FAF8F5] border-b border-[#E8E5E0]">
+    <section id="profil" className="pt-26 sm:pt-28 pb-20 sm:pb-24 bg-[#FAF8F5] border-b border-[#E8E5E0]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-6 sm:space-y-8">
         
         {/* Hero Asymmetrical Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-center">
           
           {/* Left Column: Headline, Bio & CTAs (Lg: 7 cols) */}
           <div className="lg:col-span-7 space-y-6 sm:space-y-7">
