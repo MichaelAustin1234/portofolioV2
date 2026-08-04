@@ -228,8 +228,7 @@ export default function Kontak() {
         </form>
 
         {/* Social Links Footer Row */}
-        <div className="pt-4 flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm text-[#66625D]">
-          <span>Profil Sosial</span>
+        <div className="pt-4 flex flex-wrap items-center justify-end gap-3 text-xs sm:text-sm text-[#66625D]">
           <div className="flex items-center gap-4">
             <a
               href={profileData.linkedin.link}
