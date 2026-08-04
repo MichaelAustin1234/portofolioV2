@@ -59,7 +59,7 @@ export default function Kontak() {
                   <Mail className="w-5 h-5 text-[#B94A24]" />
                 </div>
                 <div className="min-w-0">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#66625D] block">Email Direct</span>
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#66625D] block">Email</span>
                   <div className="font-display font-bold text-sm sm:text-base text-[#121212] truncate mt-0.5" title={profileData.email}>
                     {profileData.email}
                   </div>
@@ -72,7 +72,7 @@ export default function Kontak() {
                 href={profileData.emailLink}
                 className="w-full inline-flex items-center justify-center gap-2 bg-[#121212] text-white hover:bg-[#B94A24] active:bg-[#9A3B1B] px-5 py-3 text-xs font-semibold rounded-xl transition-colors shadow-xs min-h-[42px]"
               >
-                <span>Kirim Email Direct</span>
+                <span>Kirim Email</span>
                 <ExternalLink className="w-3.5 h-3.5 opacity-80" />
               </a>
             </div>
