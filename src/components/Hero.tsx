@@ -5,7 +5,7 @@ import { profileData } from "@/data/profile";
 
 export default function Hero() {
   return (
-    <section id="profil" className="pt-24 pb-14 sm:pb-16 bg-[#FAF8F5] border-b border-[#E8E5E0]">
+    <section id="profil" className="pt-30 sm:pt-34 pb-20 sm:pb-24 bg-[#FAF8F5] border-b border-[#E8E5E0]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-6 sm:space-y-8">
         
         {/* Hero Asymmetrical Grid */}
