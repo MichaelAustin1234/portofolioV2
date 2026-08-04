@@ -11,7 +11,7 @@ export interface Sertifikasi {
 export const dataSertifikasi: Sertifikasi[] = [
   {
     id: "bnsp-system-analyst",
-    title: "BNSP System Analyst Certification",
+    title: "System Analyst Certification",
     issuer: "Badan Nasional Sertifikasi Profesi (BNSP)",
     issueDate: "Nov 2024",
     category: "Sertifikasi Profesi",
