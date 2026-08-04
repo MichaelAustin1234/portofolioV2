@@ -40,6 +40,6 @@ export const dataSertifikasi: Sertifikasi[] = [
     issuer: "Alibaba Cloud Academy",
     issueDate: "Jan 2024",
     category: "Bahasa / Cloud",
-    description: "Sertifikasi kompetensi dasar arsitektur cloud & infrastruktur komputasi awan."
+    description: "Sertifikasi kompetensi dasar arsitektur cloud & infrastruktur komputasi cloud."
   }
 ];
