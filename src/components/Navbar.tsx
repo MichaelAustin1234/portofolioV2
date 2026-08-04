@@ -37,11 +37,11 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         
         {/* Wordmark */}
-        <Link href="#" className="group py-1">
+        <a href="#hero" className="group py-1">
           <span className="font-display font-extrabold text-lg sm:text-xl tracking-tight text-[#121212] group-hover:text-[#B94A24] transition-colors">
             Michael Austin
           </span>
-        </Link>
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-[#66625D]">
