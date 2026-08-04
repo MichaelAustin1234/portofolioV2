@@ -18,7 +18,7 @@ export const dataPengalaman: Pengalaman[] = [
     location: "Jakarta",
     period: "Sep 2023 – Sep 2025",
     type: "Akademik / Asisten",
-    description: "Membimbing dan mengajar 30–40 mahasiswa per kelas untuk 5 mata kuliah selama 4 semester berturut-turut dengan total lebih dari 150 mahasiswa per semester.",
+    description: "Peran akademis membimbing dan mengajar mahasiswa Telkom University Kampus Jakarta pada laboratorium ilmu komputer & sistem informasi.",
     responsibilities: [
       "Membimbing dan mengajar 30–40 mahasiswa per kelas di 5 mata kuliah: Basis Data, Manajemen Rantai Pasok, Keamanan Sistem Informasi, SAP (Sistem Informasi Akuntansi), dan Data Warehouse (3 sesi praktikum/semester per matkul)",
       "Menyusun modul praktikum dan mengevaluasi hasil kerja mahasiswa secara konsisten selama 4 semester berturut-turut",
@@ -28,12 +28,12 @@ export const dataPengalaman: Pengalaman[] = [
   },
   {
     id: "it-developer-intern",
-    role: "IT DEVELOPER (magang)",
+    role: "IT Developer (Magang)",
     company: "Metropolitan Golden Management",
     location: "Jakarta",
     period: "Mar 2024 – Sep 2024",
     type: "Kerja / Magang",
-    description: "Menganalisis kebutuhan operasional Hotel Horison Menteng bersama tim IT & manajemen, lalu merancang dan mengimplementasikan sistem yang dibutuhkan menjadi 17 modul CRUD.",
+    description: "Pengalaman magang profesional dalam pengembangan dan konsolidasi sistem informasi manajemen operasional Hotel Horison Menteng.",
     responsibilities: [
       "Menganalisis kebutuhan operasional hotel bersama tim manajemen hotel dan IT, lalu merancang dan mengimplementasikan sistem yang dibutuhkan menjadi 17 modul CRUD menggunakan PHP dan Laravel",
       "Mengelola version control dengan GitHub selama proses pengembangan untuk menjaga histori perubahan kode tetap terlacak dan mudah di-review",
