@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, MessageSquare, Send, CheckCircle, AlertCircle, Loader2, Copy, Check, MapPin, Clock } from "lucide-react";
+import { Mail, MessageSquare, Send, CheckCircle, AlertCircle, Loader2, Copy, Check } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
 import { profileData } from "@/data/profile";
 
@@ -149,7 +149,7 @@ export default function Kontak() {
             </div>
 
             {/* Social Links & Meta Info */}
-            <div className="pt-4 border-t border-[#E8E5E0] space-y-3">
+            <div className="pt-4 border-t border-[#E8E5E0]">
               <div className="flex items-center gap-3">
                 <a
                   href={profileData.linkedin.link}
@@ -169,17 +169,6 @@ export default function Kontak() {
                   <GithubIcon className="w-4 h-4" />
                   <span>GitHub</span>
                 </a>
-              </div>
-
-              <div className="space-y-1.5 text-xs text-[#66625D] pt-1">
-                <div className="flex items-center gap-2">
-                  <MapPin className="w-3.5 h-3.5 text-[#B94A24]" />
-                  <span>Domisili: {profileData.city}, Indonesia</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Clock className="w-3.5 h-3.5 text-[#B94A24]" />
-                  <span>Respon pesan biasanya dalam &lt; 24 jam</span>
-                </div>
               </div>
             </div>
 

@@ -8,14 +8,6 @@ export default function Hero() {
     <section id="profil" className="pt-20 sm:pt-24 pb-14 sm:pb-16 bg-[#FAF8F5] border-b border-[#E8E5E0]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-6 sm:space-y-8">
         
-        {/* Top Status Bar */}
-        <div className="flex justify-end">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-[11px] sm:text-xs font-mono font-medium shadow-2xs">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0" />
-            <span>Terbuka untuk Peluang Kerja & Magang</span>
-          </div>
-        </div>
-
         {/* Hero Asymmetrical Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-start">
           
