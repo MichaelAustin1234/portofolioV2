@@ -5,8 +5,8 @@ import { profileData } from "@/data/profile";
 
 export default function Hero() {
   return (
-    <section id="profil" className="pt-28 sm:pt-32 pb-16 sm:pb-20 bg-[#FAF8F5] border-b border-[#E8E5E0]">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-10 sm:space-y-12">
+    <section id="profil" className="pt-20 sm:pt-24 pb-14 sm:pb-16 bg-[#FAF8F5] border-b border-[#E8E5E0]">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-6 sm:space-y-8">
         
         {/* Top Status Bar */}
         <div className="flex justify-end">
@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
 
         {/* Hero Asymmetrical Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-start">
           
           {/* Left Column: Headline, Bio & CTAs (Lg: 7 cols) */}
           <div className="lg:col-span-7 space-y-6 sm:space-y-7">
