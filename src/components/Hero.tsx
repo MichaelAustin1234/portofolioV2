@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Mail, MessageSquare, Code2, Award, Users, ArrowRight } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
+import { Mail, Code2, Award, Users, ArrowRight } from "lucide-react";
 import { profileData } from "@/data/profile";
 
 export default function Hero() {
@@ -41,47 +40,6 @@ export default function Hero() {
               >
                 <Mail className="w-4 h-4 text-[#B94A24]" />
                 <span>Hubungi Saya</span>
-              </a>
-            </div>
-
-            {/* Direct Contact Links */}
-            <div className="pt-5 border-t border-[#E8E5E0] flex flex-wrap items-center gap-4 sm:gap-5 text-xs sm:text-sm text-[#66625D]">
-              <a
-                href={profileData.whatsapp.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 hover:text-[#B94A24] underline underline-offset-4 py-1 min-h-[40px]"
-              >
-                <MessageSquare className="w-4 h-4 text-[#B94A24] shrink-0" />
-                <span>WA: {profileData.whatsapp.formattedNumber}</span>
-              </a>
-
-              <a
-                href={profileData.emailLink}
-                className="inline-flex items-center gap-1.5 hover:text-[#B94A24] underline underline-offset-4 py-1 min-h-[40px]"
-              >
-                <Mail className="w-4 h-4 text-[#B94A24] shrink-0" />
-                <span className="truncate max-w-[200px] sm:max-w-none">{profileData.email}</span>
-              </a>
-
-              <a
-                href={profileData.linkedin.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 hover:text-[#B94A24] underline underline-offset-4 py-1 min-h-[40px]"
-              >
-                <LinkedinIcon className="w-4 h-4 shrink-0" />
-                <span>LinkedIn</span>
-              </a>
-
-              <a
-                href={profileData.github.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 hover:text-[#B94A24] underline underline-offset-4 py-1 min-h-[40px]"
-              >
-                <GithubIcon className="w-4 h-4 shrink-0" />
-                <span>GitHub</span>
               </a>
             </div>
           </div>
