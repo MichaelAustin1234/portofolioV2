@@ -22,16 +22,11 @@ export default function Hero() {
           {/* Left Column: Headline, Bio & CTAs (Lg: 7 cols) */}
           <div className="lg:col-span-7 space-y-6 sm:space-y-7">
             
-            {/* Headline + Multi-Role Subtitle (Clean & Spacious Pairing) */}
-            <div className="space-y-3">
-              <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-[#121212] tracking-tight leading-[1.06]">
-                Michael Austin
-              </h1>
-              
-              {/* Elegant Multi-Role Subtitle Tag */}
-              <p className="text-[#B94A24] font-display font-bold text-base sm:text-lg lg:text-xl tracking-tight leading-snug">
+            {/* Multi-Role Subtitle Tag */}
+            <div>
+              <h1 className="text-[#B94A24] font-display font-bold text-base sm:text-lg lg:text-xl tracking-tight leading-snug">
                 System Analyst <span className="text-[#66625D]/40 mx-1">•</span> Web Developer <span className="text-[#66625D]/40 mx-1">•</span> Software Engineer <span className="text-[#66625D]/40 mx-1">•</span> IT Support <span className="text-[#66625D]/40 mx-1">•</span> QA
-              </p>
+              </h1>
             </div>
 
             <p className="text-[#66625D] text-sm sm:text-base lg:text-lg leading-relaxed pt-1">
