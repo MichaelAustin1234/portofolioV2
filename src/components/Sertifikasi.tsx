@@ -28,11 +28,11 @@ export default function Sertifikasi() {
         </div>
 
         {/* Credentials Grid (2-Column 2x2 Layout) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
           {dataSertifikasi.map((item) => (
             <div
               key={item.id}
-              className="p-6 bg-white border border-[#E8E5E0] hover:border-[#121212]/30 rounded-2xl flex flex-col justify-between space-y-4 transition-all shadow-2xs group"
+              className="p-6 bg-white border border-[#E8E5E0] hover:border-[#121212]/30 rounded-2xl flex flex-col justify-between space-y-4 transition-all shadow-2xs group h-full"
             >
               <div className="space-y-3">
                 {/* Header Meta */}

@@ -19,11 +19,11 @@ export const dataSertifikasi: Sertifikasi[] = [
   },
   {
     id: "publikasi-ubi-bakar",
-    title: "Rancang Bangun Sistem Informasi Manajemen Inventory dan Keuangan Berbasis Web Menggunakan Metode Prototype (Studi Kasus Toko Ubi Bakar Cilembu)",
+    title: "Publikasi Ilmiah: Sistem Inventory & Keuangan Web (Ubi Bakar Cilembu)",
     issuer: "Open Library Telkom University",
     issueDate: "Jul 2025",
     category: "Publikasi Ilmiah",
-    description: "Publikasi karya ilmiah tugas akhir mengenai perancangan & analisis skalabilitas sistem manajemen persediaan barang dan keuangan real-time berbasis web.",
+    description: "Publikasi karya ilmiah tugas akhir (metode Prototype) mengenai perancangan & analisis skalabilitas sistem manajemen persediaan barang dan keuangan real-time berbasis web.",
     link: "https://openlibrary.telkomuniversity.ac.id/"
   },
   {
