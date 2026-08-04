@@ -137,7 +137,7 @@ export default function Kontak() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#FAF8F5] border border-[#E8E5E0] hover:border-[#121212] text-[#121212] rounded-xl transition-colors"
           >
-            <LinkedinIcon className="w-4 h-4" />
+            <LinkedinIcon className="w-4 h-4 text-[#0A66C2]" />
             <span>LinkedIn Profile</span>
           </a>
 
@@ -147,7 +147,7 @@ export default function Kontak() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#FAF8F5] border border-[#E8E5E0] hover:border-[#121212] text-[#121212] rounded-xl transition-colors"
           >
-            <GithubIcon className="w-4 h-4" />
+            <GithubIcon className="w-4 h-4 text-[#181717]" />
             <span>GitHub Repositories</span>
           </a>
         </div>
