@@ -25,7 +25,7 @@ export default function Hero() {
             {/* Multi-Role Primary Headline */}
             <div>
               <h1 className="text-xl sm:text-2xl lg:text-3xl font-display font-extrabold text-[#B94A24] tracking-tight leading-snug">
-                System Analyst <span className="text-[#66625D]/40 mx-1.5">•</span> Web Developer <span className="text-[#66625D]/40 mx-1.5">•</span> Software Engineer <span className="text-[#66625D]/40 mx-1.5">•</span> IT Support <span className="text-[#66625D]/40 mx-1.5">•</span> QA
+                System Analyst <span className="text-[#121212] mx-1.5">•</span> Web Developer <span className="text-[#121212] mx-1.5">•</span> Software Engineer <span className="text-[#121212] mx-1.5">•</span> IT Support <span className="text-[#121212] mx-1.5">•</span> QA
               </h1>
             </div>
 
